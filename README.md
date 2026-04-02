@@ -1,5 +1,13 @@
 # gitflow-practice
 
+## 로컬 작업 환경 세팅 (Developer 역할)
+
+이제 개발자의 PC에서 작업을 시작한다고 가정합니다. 터미널(또는 Git Bash)을 열고 진행합니다.
+
+1. **저장소 클론:** `git clone [저장소 URL]`
+2. **디렉토리 이동:** `cd gitflow-practice`
+3. **develop 브랜치 동기화 및 이동:** `git checkout -b develop origin/develop`
+
 ## 이 저장소는 GitFlow 전략을 실무에 적용할 때 발생할 수 있는 8가지 주요 시나리오를 직접 실습해 보기 위해 구성되었습니다. 아래의 시나리오를 순서대로 진행하며 문제를 발생시키고 직접 해결해 보세요.
 
 ### 시나리오 1 & 2: 정상 병합과 버전 동기화
